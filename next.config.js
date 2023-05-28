@@ -8,6 +8,7 @@ const nextConfig = {
     //     - hideSourceMaps
     //     - widenClientFileUpload
   },
+  output: 'export',
 }
 
 const sentryWebpackPluginOptions = {

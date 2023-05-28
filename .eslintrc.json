@@ -5,5 +5,5 @@
   "no-restricted-imports": ["error", {
     "name": "@testing-library/react",
     "message": "Please use `@utils//testing-library` instead."
-  }],
+  }]
 }
