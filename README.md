@@ -14,7 +14,9 @@ npm run dev
 npm run test
 ```
 
+## Demo
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<video src="./public/demo.mp4">
 
 ## Exteral Libraries and Frameworks
 - `@mui` - React Material UI
@@ -23,4 +25,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `jest` - No explanation needed :D
 - `@testing-library/react` - Preferred way of testing react components
 - `next` - React framework
-- 
