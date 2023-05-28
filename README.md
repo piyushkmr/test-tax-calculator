@@ -16,7 +16,7 @@ npm run test
 
 ## Demo
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-<video src="./public/demo.mp4">
+[Demo Video](https://i.imgur.com/LrSKhtC.mp4)
 
 ## Exteral Libraries and Frameworks
 - `@mui` - React Material UI
