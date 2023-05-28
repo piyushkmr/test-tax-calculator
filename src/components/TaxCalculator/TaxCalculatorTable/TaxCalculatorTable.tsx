@@ -33,13 +33,13 @@ export const TaxCalculatorTable: FunctionComponent<TaxCalculatorTableProps> = (p
             </td>
           </tr>
         ))}
+        <tr className={styles.tableFooter}>
+          <td>Total</td>
+          <td className={styles.taxNumber}>
+            {formatCurrency(props.totalTax)}
+          </td>
+        </tr>
       </tbody>
-      <tr className={styles.tableFooter}>
-        <td>Total</td>
-        <td className={styles.taxNumber}>
-          {formatCurrency(props.totalTax)}
-        </td>
-      </tr>
     </table>
   </div> : null;
 }

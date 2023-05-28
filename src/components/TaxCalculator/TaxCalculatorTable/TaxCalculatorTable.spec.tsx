@@ -29,6 +29,6 @@ describe('TaxCalculatorTable', () => {
     />);
 
     const expedtedTableRows = TAX_BANDS.length + 1;
-    expect(container.querySelectorAll('table tr')).toHaveLength(expedtedTableRows);
+    expect(container.querySelectorAll('table tbody tr')).toHaveLength(expedtedTableRows);
   });
 })
