@@ -1,0 +1,25 @@
+.taxCalculatorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.taxCalculatorContent {
+  display: flex;
+  flex-direction: column;;
+  width: 100%;
+  max-width: 25rem;
+  background-color: #eee;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.taxCalculatorForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  & :global(.MuiFormControl-root) {
+    margin-bottom: 1rem;
+  }
+}

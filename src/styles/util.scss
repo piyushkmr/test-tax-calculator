@@ -1,0 +1,15 @@
+/**
+ * EXPLAIN
+ * I like to add some util classes to be used in the app.
+ * But if possible, I like to avoid full fleged util class like tailwind, as code readability gets hurt with tailwind,
+ * along with other issues like difficulty in code refactoring
+ * Ideally I'll define utilities in separate files like:
+ * - text.util.scss
+ * - layout.util.scss
+ * - colors.util.scss
+ * - utils.scss (import everything from above here)
+ */
+ 
+@import './text.util.scss';
+@import './layout.util.scss';
+@import './theme.scss';
